@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    gap: 50px;
+}
+.select-program{
+    border: 2px solid crimson;
+    padding: 10px 50px;
+}
+h2{
+    text-align: center;
+    color: chartreuse;
+}
+button{
+    font-size: 14px;
+   margin: 10px 10px;
+   font-weight: 500;
+   width: 150px;
+   height: 50px;
+   border-radius: 10px;
+   box-shadow: 3px 4px 5px rgb(133, 4, 79);
+   background: linear-gradient(rgba(15, 228, 128, 0.897), rgba(248, 248, 248, 0.5));
+}
+
+#prime-number{
+    height: 200px;
+    width: 500px;
+    background:linear-gradient(120deg,rgba(10, 105, 143, 0.65),rgba(185, 31, 185, 0.8));
+    box-shadow: 5px 6px 10px rgb(80, 148, 78);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    font-size: 28px;
+    color:#fff;
+}
